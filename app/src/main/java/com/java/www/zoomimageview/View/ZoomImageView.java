@@ -283,7 +283,7 @@ public class ZoomImageView extends ImageView implements ViewTreeObserver.OnGloba
             if(rectF.left>0){
                 deltaX=-rectF.left;
             }
-            if(rectF.right<width){
+            if( rectF.right<width){
                 deltaX=width-rectF.right;
             }
         }
